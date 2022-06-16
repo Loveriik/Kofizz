@@ -1,0 +1,134 @@
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:1180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:80px;
+    margin-bottom:70p;
+}
+.headimg{
+    margin-left:0;
+    margin-top:0;
+}
+.links{
+    display:flex;
+    justify-content:space-evenly;
+    width:500px;
+    align-items: center;
+}
+img{
+    margin-left: 130px;
+    margin-top:118px;
+}
+.button{
+    border-style:solid;
+    padding: 12px 32px;
+    border-color:#3730A3;
+    background-color:white;
+    border-radius: 6px;
+}
+.links2{
+    display: inline-block;
+}
+.but{
+    border-style:solid;
+    padding: 12px 32px;
+    border-radius: 6px;
+    border-color:#3730A3;
+}
+.bluebut{
+    background-color: #3730A3;
+    color:white;
+}
+.white{
+    background-color:white;
+    color:#3730A3;
+}
+main{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 1180px;
+    margin-top:70px;
+    margin-left:auto;
+    margin-right:auto;
+}
+main p{
+    width:553px;
+    height:84px;
+    font-size: 18px;
+}
+main h1{
+    font-size:72px;
+}
+main img{
+    width:478px;
+    height:525px;
+}
+h2{
+    text-align: center;
+    font-size:48px;
+}
+article{
+    margin-top:100px;
+    width:1180px;
+    margin-right: auto;
+    margin-left:auto;
+}
+.botline:hover{
+    text-decoration: none;;
+}
+.container{
+    display:grid;
+    grid-template-columns: auto auto;
+    gap:5px;
+    margin-left: 40px;
+}
+.article1{
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.item{
+    width: 311px;
+    height: 132px;
+}
+.item p{
+    font-size:12px;
+}
+.item a{
+    color:#3730A3;
+    font-size:12px;
+}
+.item h3{
+    font-size:18px;
+}
+.adv{
+    display:flex;
+    justify-content: space-evenly;
+    height:300px;
+    margin: 100px 0;
+    background-color:antiquewhite;
+}
+.container2{
+    display:grid;
+    grid-template-areas: 
+    "head right"
+    "left right"
+    "bottom bottom";
+    gap:5px 5px;
+}
+.item1{
+    grid-area: head;
+}
+.item2{
+    grid-area: right;
+}
+.item3{
+    grid-area: left;
+}
+.item4{
+    grid-area: bottom;
+}
